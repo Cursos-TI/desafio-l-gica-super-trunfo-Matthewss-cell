@@ -57,8 +57,10 @@ int main() {
     // utilize o código do primeiro desafio
 
     // Exemplo:
-    // printf("Digite o código da cidade: ");
-    // scanf("%s", codigo);
+    //
+     printf("Digite o código da cidade: ");
+    //
+     scanf("%s", codigo);
     // 
     // (Repita para cada propriedade)
 
@@ -77,7 +79,14 @@ int main() {
         printf("Populacao: Empate!\n");
     }
 
-    //     
+    //    area
+      if (areaA > areaB) {
+        printf("Maior Area: %s venceu!\n", nomeA);
+    } else if (areaB > areaA) {
+        printf("Maior Area: %s venceu!\n", nomeB);
+    } else {
+        printf("Area: Empate!\n");
+    }
     // 
     //     
     // 

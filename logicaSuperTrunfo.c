@@ -7,6 +7,17 @@
 
 int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
+      // ===== CARTA 1 =====
+    char nomeA[50];
+    int populacaoA;
+    float areaA;
+    float pibA;
+
+    // ===== CARTA 2 =====
+    char nomeB[50];
+    int populacaoB;
+    float areaB;
+    float pibB;
     // Você pode utilizar o código do primeiro desafio
 
     

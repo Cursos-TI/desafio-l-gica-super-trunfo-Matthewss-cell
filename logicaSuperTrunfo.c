@@ -22,6 +22,36 @@ int main() {
 
     
     // Cadastro das Cartas:
+      // ===== Cadastro Carta 1 =====
+    printf("=== Cadastro da Carta 1 ===\n");
+
+    printf("Nome da cidade: ");
+    scanf("%s", nomeA);
+
+    printf("Populacao: ");
+    scanf("%d", &populacaoA);
+
+    printf("Area (km2): ");
+    scanf("%f", &areaA);
+
+    printf("PIB (em bilhoes): ");
+    scanf("%f", &pibA);
+
+    // ===== Cadastro Carta 2 =====
+    printf("\n=== Cadastro da Carta 2 ===\n");
+
+    printf("Nome da cidade: ");
+    scanf("%s", nomeB);
+
+    printf("Populacao: ");
+    scanf("%d", &populacaoB);
+
+    printf("Area (km2): ");
+    scanf("%f", &areaB);
+
+    printf("PIB (em bilhoes): ");
+    scanf("%f", &pibB);
+
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
     // utilize o código do primeiro desafio

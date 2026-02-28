@@ -79,7 +79,7 @@ int main() {
         printf("Populacao: Empate!\n");
     }
 
-    //    area
+    //    área
       if (areaA > areaB) {
         printf("Maior Area: %s venceu!\n", nomeA);
     } else if (areaB > areaA) {
@@ -88,7 +88,14 @@ int main() {
         printf("Area: Empate!\n");
     }
     // 
-    //     
+    //    pib
+     if (pibA > pibB) {
+        printf("Maior PIB: %s venceu!\n", nomeA);
+    } else if (pibB > pibA) {
+        printf("Maior PIB: %s venceu!\n", nomeB);
+    } else {
+        printf("PIB: Empate!\n");
+    }
     // 
 
     // Exibição dos Resultados:
@@ -96,7 +103,8 @@ int main() {
     // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
 
     // Exemplo:
-    // printf("A cidade vencedora é: %s\n", cidadeVencedora);
+    // 
+    printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
     return 0;
 }

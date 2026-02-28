@@ -63,6 +63,7 @@ int main() {
     // (Repita para cada propriedade)
 
     // Comparação de Cartas:
+     printf("\n=== Resultado das Comparacoes ===\n");
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
 
